@@ -124,3 +124,98 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+
+body {
+    font-family: 'Poppins', sans-serif; /* Use a modern font for a fashionable look */
+    background-color: #f4f4f9; /* Light grey background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .contact-container {
+    background-color: white;
+    padding: 60px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* A deeper shadow for elegance */
+  }
+  
+  .contact-info {
+    padding-right: 40px;
+    border-right: 2px solid #f4f4f9; /* Adds a light border between columns */
+  }
+  
+  .contact-info h2 {
+    color: #333;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  .contact-details {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .contact-details li {
+    margin-bottom: 15px;
+  }
+  
+  .contact-details strong {
+    color: #0C9;
+  }
+  
+  .contact-form h2 {
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-control:focus {
+    border-color: #0C9;
+    box-shadow: 0 0 5px rgba(0, 204, 153, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: #0C9;
+    border-color: #0C9;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #098F7A;
+    border-color: #098F7A;
+  }
+  
+  .contact-banner {
+    margin-top: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Soft shadow around the image */
+  }
+  
